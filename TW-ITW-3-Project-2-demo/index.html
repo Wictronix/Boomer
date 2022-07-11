@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" integrity="sha512-LeCmts7kEi09nKc+DwGJqDV+dNQi/W8/qb0oUSsBLzTYiBwxj0KBlAow2//jV7jwEHwSCPShRN2+IWwWcn1x7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	  <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">BOOMER </a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./link/gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./link/videos.html">Videos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Games">Games</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <!-- Banner -->
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner carousel-fade">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="Assets/images/g1.jpg">
+				<div class="carousel-caption">
+					
+					<p class="animated bounceInRight" style="animation-delay: 0.5s"><a href="#">PLAY</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="Assets/images/g2.jpg">
+				<div class="carousel-caption">
+					
+					<p class="animated bounceInRight" style="animation-delay: 0.5s"><a href="#">PLAY</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="Assets/images/g3.jpg">
+				<div class="carousel-caption">
+					<p class="animated bounceInRight" style="animation-delay: 0.5s"><a href="#">PLAY</a></p>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+
+
+    <!-- Game Cards -->
+    <section class="oc-section" id="Games">
+      <div class="gamelist">
+        <p>Most Played Games in 2022 </p>
+      </div>
+      <div class="owl-carousel owl-theme" style="text-align: center;">
+        <div class="item">
+          <div class="card " style="width: 18rem;">
+            <img src="./assets/images/smashkarts.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="./link/Games/smashkarts.html" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/subway_surfers.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="oc-section">
+      <div class="gamelist">
+        <p>New Releases </p>
+      </div>
+      <div class="owl-carousel owl-theme" style="text-align: center;">
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/smashkarts.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/subway_surfers.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="oc-section">
+      <div class="gamelist">
+        <p>Trending Arcade Games</p>
+      </div>
+      <div class="owl-carousel owl-theme" style="text-align: center;">
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/smashkarts.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/subway_surfers.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/images/skribble.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smashkarts.io</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident.</p>
+              <a href="#" class="btn btn-primary">Play Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-section">
+      <div class="container-fluid px-md-5">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            
+              <h2 class="ftco-heading-2" style="color: #00bd56;font-size: xx-large;"  data-aos="fade-up" data-aos-duration="800">Boomer</h2>
+              <p  data-aos="fade-up" data-aos-duration="1000">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <div class="ah1 footer-social-icon ftco-footer-social" style="display: flex;flex-wrap: nowrap;">
+                <a data-aos="fade-up" data-aos-duration="900" href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a data-aos="fade-up" data-aos-duration="1000" href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a data-aos="fade-up" data-aos-duration="1100"href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md" >
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2"  data-aos="fade-up" data-aos-duration="700">Pages</h2>
+              <ul class="list-unstyled ah1">
+                <li data-aos="fade-up" data-aos-duration="800">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Home</a
+                  >
+                </li>
+                <li data-aos="fade-up" data-aos-duration="900">
+                  <a href="#"
+                    ><img src="./assets/images/icons8-right-100.png" width="24px" />blogs</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="1000">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Gallery</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="1100">
+                    <a href="#"
+                      ><img
+                        src="./assets/images/icons8-right-100.png"
+                        width="24px"
+                      />Videos</a
+                    >
+                  </li>
+                  <li  data-aos="fade-up" data-aos-duration="1100">
+                    <a href="#"
+                      ><img
+                        src="./assets/images/icons8-right-100.png"
+                        width="24px"
+                      />Contact us</a
+                    >
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2" data-aos="fade-up" data-aos-duration="700" >Games</h2>
+              <ul class="list-unstyled ah1">
+                <li data-aos="fade-up" data-aos-duration="800">
+                    <a href="#"
+                    ><img src="./assets/images/icons8-right-100.png" width="24px" />Game 1</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="900">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Game 2</a
+                  >
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1000">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Game 3</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"  data-aos="fade-up" data-aos-duration="700">Policy</h2>
+              <ul class="list-unstyled ah1">
+                <li data-aos="fade-up" data-aos-duration="800">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Terms and condition</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="900">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Privacy Policy</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="1000">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Report</a
+                  >
+                </li>
+                <li  data-aos="fade-up" data-aos-duration="1100">
+                  <a href="#"
+                    ><img
+                      src="./assets/images/icons8-right-100.png"
+                      width="24px"
+                    />Feedback</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"  data-aos="fade-up" data-aos-duration="700">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul style="margin: 0;padding: 0;">
+                  <li class="ah1" data-aos="fade-up" data-aos-duration="800">
+                    <a href="#">
+                    <img src="./assets/images/map-marker-2-64.png" width="24px"></i
+                    ><span class="text"
+                      >Shaitan gali , Khatra mehal , andher nagar , shamshan ke samne</span
+                    ></a>
+                  </li>
+                  <li class="ah1" data-aos="fade-up" data-aos-duration="900">
+                    <a href="tel:987654567"
+                      ><img src="./assets/images/phone-64.png" width="24px">
+                    <span class="text">0987654398</span></a
+                    >
+                  </li>
+                  <li class="ah1" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="mailto:jhgfdxc@gmail.com"
+                      ><img src="./assets/images/mail-64.png" width="24px">
+                      <span class="text">xyz@gmail.com</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="../image/istockphoto-1213834501-170667a-removebg-preview__1_-removebg-preview (1).png"> -->
+        <div class="row"  data-aos="fade-up" data-aos-duration="1100">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved - Client Name. All Rights Reserved. || Magically Created by <a href=" https://www.thewizards.me" target="_blank">
+                <img class="logo-bottom" width="5%" src="./assets/images/wiz.webp">The&nbsp;Wizards
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Footer Script -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js">
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js">
+    </script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+        }
+      })
+    </script>
+</body>
+</html>

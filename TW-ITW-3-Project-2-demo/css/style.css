@@ -1,0 +1,215 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.bg-light {
+	background-color: transparent !important;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #000;
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+    
+}
+.navbar-light .navbar-brand {
+	color: rgb(255, 238, 0);
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 238, 0);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: rgb(255, 238, 0);
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
+
+/* Game Cards */
+.gamelist{
+  margin: 4rem 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.item{
+  margin: 0 1.5rem;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 200px;
+}
+
+.owl-carousel{
+  /* padding: 4rem 0; */
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.owl-item {
+  width: auto;
+}
+
+
+/* Footer */
+
+footer{
+  margin: 4rem 0 0 0;
+}
+.ftco-footer {
+  font-size: 16px;
+  background: #000000;
+  padding: 7em 0;
+  z-index: 0;
+}
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 900;
+}
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+}
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ftco-footer-widget img{
+  margin-right: 10px;
+}
+.ftco-footer .ftco-footer-widget ul li a {
+  color: rgba(255, 255, 255, 0.4);
+}
+.ftco-footer-social a {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+  background: #00bd56;
+  border-radius: 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.ftco-footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.block-23 ul li, .block-23 ul li > a {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.block-23 ul li .icon, .block-23 ul li .text {
+  display: table-cell;
+  vertical-align: top;
+}
+.block-23 ul li span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.fab{
+  color:black;
+}
+
+/* .container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+} */
+
+.ah1 *{
+  transition: transform 0.5s;
+}
+
+.ah1:hover *{
+  transform: scale(1.1);
+}
+
+
+footer a{
+  text-decoration: none;
+}
