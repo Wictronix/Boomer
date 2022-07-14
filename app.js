@@ -54,6 +54,9 @@ app.post("/videos",function(req,res){
   res.render("videos");
 });
 
+app.post("/blog-page",function(req,res){
+  res.render("blog-1");
+});
 
 
 
