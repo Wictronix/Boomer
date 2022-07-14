@@ -56,9 +56,6 @@ app.post("/videos",function(req,res){
 
 
 
-
-app.listen(3000,function(){
-  console.log("server started at 3000");
+app.listen(port,()=>{  // do not add localhost here if you are deploying it
+  console.log("server listening to port "+port);
 });
-
-
