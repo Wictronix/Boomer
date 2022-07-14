@@ -54,6 +54,9 @@ app.post("/videos",function(req,res){
   res.render("videos");
 });
 
+app.post("/blog-page",function(req,res){
+  res.render("blog-1");
+});
 
 
 app.listen(port,()=>{  // do not add localhost here if you are deploying it
